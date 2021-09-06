@@ -1,0 +1,30 @@
+body {
+  background: url("./images/coronavirus.jpg") no-repeat center center fixed;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.image {
+  width: 370px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    width: 95%;
+
+    margin: 0 auto;
+  }
+
+  .image {
+    width: 80%;
+  }
+}
